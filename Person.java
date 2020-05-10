@@ -9,12 +9,12 @@ class Person
   private int mob;
   private String address;
 
-Person(int id,String firstName,String lastName,int mob,String address)
+Person(int id,String firstName,String lastName,int mobile,String address)
   {
 	this.id=id;
 	this.firstName=firstName;
 	this.lastName=lastName;
-	this.mob=mob;
+	this.mobile=mobile;
 	this.address=address;
   }
 
@@ -34,9 +34,9 @@ public String getlastName()
   return lastName;
   }
 
-public int getMob()
+public int getMobile()
   {
-  return mob;
+  return mobile;
   }
 
 public String getAddress()
@@ -60,9 +60,9 @@ public void setLastName(String lastName)
   this.lastName=lastName;
   }
 
-public void setMob(int mob)
+public void setMobile(int mobile)
   {
-  this.mob=mob;
+  this.mobile=mobile;
   }
 
 public void setAddress(String address)
